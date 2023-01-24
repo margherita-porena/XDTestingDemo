@@ -2,15 +2,15 @@
   "ontologies": [
     {
       "url": "https://raw.githubusercontent.com/polifonia-project/musical-performance-ontology/main/musical-performance.owl",
-      "name": "musical_performance",
+      "name": "musicalPerformance",
       "userDefined": true
     }
   ],
   "fragments": [
     {
       "name": "fragment1",
-      "ontologyName": "musical_performance",
-      "fileName": "musical_performance/fragment1/mp_20230124153929931.owl"
+      "ontologyName": "musicalPerformance",
+      "fileName": "musicalPerformance/fragment1/mp_20230124153929931.owl"
     }
   ]
 }
