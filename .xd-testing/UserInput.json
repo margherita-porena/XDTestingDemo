@@ -10,7 +10,21 @@
     {
       "name": "fragment1",
       "ontologyName": "musicalPerformance",
-      "fileName": "musicalPerformance/fragment1/mp_20230124153929931.owl"
+      "fileName": "musicalPerformance/fragment1/mp_20230124153929931.owl",
+      "tests": [
+        {
+          "type": "COMPETENCY_QUESTION",
+          "content": "When was a musical performance recorded?",
+          "reasoner": "hermiT 1.4.3.456",
+          "status": "running",
+          "query": "PREFIX mp: <https://w3id.org/polifonia/ontology/musical-performance/> PREFIX core: <https://w3id.org/polifonia/ontology/core/> SELECT DISTINCT ?time WHERE { ?composition mp:isInvolvedInMusicalPerformance ?performance . ?performance core:hasTimeInterval ?time }",
+          "data": "",
+          "dataFileName": "musicalPerformance/fragment1/datasets/DatasetCQ.ttl",
+          "expectedResults": "",
+          "expectedResultsFileName": "musicalPerformance/fragment1/expectedResults/CQ-ExpectedResults.json",
+          "id": "CQ001"
+        }
+      ]
     }
   ]
 }
