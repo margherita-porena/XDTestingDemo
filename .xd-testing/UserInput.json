@@ -10,7 +10,7 @@
         {
             "name": "fragment1",
             "ontologyName": "musicalPerformance",
-            "fileName": "musicalPerformance/fragment1/mp_20230124153929931.owl",
+            "fileName": "musicalPerformance/fragment1/mp.owl",
             "tests": [
                 {
                     "type": "COMPETENCY_QUESTION",
