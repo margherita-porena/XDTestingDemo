@@ -6,5 +6,11 @@
       "userDefined": true
     }
   ],
-  "fragments": []
+  "fragments": [
+    {
+      "name": "fragment1",
+      "ontologyName": "musical_performance",
+      "fileName": "musical_performance/fragment1/mp_20230124153929931.owl"
+    }
+  ]
 }
